@@ -1,0 +1,17 @@
+[Unit]
+Description=Discord Fixed Message Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/discord-fixed-message-bot
+EnvironmentFile=/opt/discord-fixed-message-bot/.env
+Environment=DATA_DIR=/opt/discord-fixed-message-bot/data
+ExecStart=/opt/discord-fixed-message-bot/.venv/bin/python /opt/discord-fixed-message-bot/main.py
+Restart=always
+RestartSec=10
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target

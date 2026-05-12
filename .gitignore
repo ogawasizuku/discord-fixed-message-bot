@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+*.log
+*.pid
+bot_config.json
+.venv/
+venv/
+.env.*
+!.env.example

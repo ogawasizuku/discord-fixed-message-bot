@@ -1,0 +1,49 @@
+{
+  "1334509537591296022": {
+    "t": {
+      "question": "これはテストです",
+      "time": "00:35",
+      "duration": 1,
+      "channel_id": 1334509545715794035,
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "multiple": false,
+      "last_sent": "2025-11-28",
+      "mention_everyone": false,
+      "paused": true
+    },
+    "test": {
+      "question": "test",
+      "time": "23:30",
+      "duration": 1,
+      "channel_id": 1441822210594705619,
+      "choices": [
+        "1",
+        "2"
+      ],
+      "multiple": false,
+      "mention_everyone": true,
+      "last_sent": "2026-01-26",
+      "paused": true
+    }
+  },
+  "1393623555476033772": {
+    "で": {
+      "question": "でぇすいさんのご飯は？",
+      "time": "00:36",
+      "duration": 1,
+      "channel_id": 1441816308923760651,
+      "choices": [
+        "パスタ",
+        "チャーハン",
+        "食べない"
+      ],
+      "multiple": false,
+      "last_sent": "2025-11-28",
+      "paused": true
+    }
+  }
+}
